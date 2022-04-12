@@ -1,0 +1,7 @@
+{
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true,
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "on"
+}

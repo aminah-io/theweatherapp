@@ -1,0 +1,16 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "A simple app to find out the weather in your desired location.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
