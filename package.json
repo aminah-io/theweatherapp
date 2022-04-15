@@ -4,7 +4,7 @@
   "description": "A simple app to find out the weather in your desired location.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Aminah Burch",
   "license": "ISC",
