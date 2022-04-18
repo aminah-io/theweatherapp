@@ -1,0 +1,7 @@
+<%- include('header') -%>
+
+<h1 style="color:maroon;text-align:center;">The temperature in <%= theCity %> is <%= theTemperature %> degrees <%= theUnits %>, and the humidity is at <%= theHumidity %>.</h1>
+<p style="text-align:center;">The weather currently includes a sky full of <%= theWeatherDescription %>.</p>
+<img style="padding:30px;background-color:#059F9A; display:block;margin:0 auto;" src=<%= theImgUrl%> alt="weather icon">
+
+<%- include('footer') -%>
