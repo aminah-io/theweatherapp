@@ -1,11 +1,31 @@
 html, body {
+  background: linear-gradient(270deg, #716f81, #b97a95, #f6ae99);
+  background-size: 600% 600%;
+  
+  -webkit-animation: AnimationName 46s ease infinite;
+  -moz-animation: AnimationName 46s ease infinite;
+  animation: AnimationName 46s ease infinite;
   height: auto;
-  font-family: ;
-  background-color: #B97A95;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
 h1 {
@@ -13,26 +33,24 @@ h1 {
   color: #3d3a55;
 }
 
+img {
+  padding: 30px;
+  background-color: #F6AE99; 
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: #fff;
+}
+
+a:visited {
+  color: #F2E1C1;
+}
+
 .container {
   background-image: -webkit-linear-gradient(20deg, rgba(255,255,255,0.3) 30%, rgba(255,255,255, 0.4) 60%);
   padding: 30px;
   border-radius: 2px;
   margin: 30px;
-}
-
-
-@include media-breakpoint-up(sm) { 
-
-}
-@include media-breakpoint-up(md) { 
-
-}
-@include media-breakpoint-up(lg) { 
-
-}
-@include media-breakpoint-up(xl) { 
-
-}
-@include media-breakpoint-up(xxl) { 
-
 }
